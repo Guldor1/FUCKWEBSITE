@@ -1,0 +1,41 @@
+body {
+	background-color: grey;
+	display: flex;
+	justify-content: space-around;
+}
+.main {
+	background-color: white;
+	border-radius: 15px;
+	width: 300px;
+	height: 350px;
+	display: flex;
+    align-items: center;
+    align-content: center; 
+    justify-content: center; 
+    flex-direction: column;
+}
+.photo {
+	width: 290px;
+	margin-top: 3px;
+	border-radius: 15px;
+	height: 200px;
+}
+.title{
+	text-align: left;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.text{
+	margin-top: 10px;
+	font-weight: normal;
+	font-size: 15px;
+}
+.button{
+	width: 290px;
+	height: 50px;
+	border-radius: 15px;
+	background-color: blue;
+	margin-top: 30px;
+	color: white;
+}
